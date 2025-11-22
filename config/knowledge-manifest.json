@@ -1,0 +1,130 @@
+{
+  "repository": "Navegador-de-Incentivos-Portugal",
+  "description": "Knowledge base for Nexo Incentives Navigator - Portuguese and EU business funding, incentives and support schemes",
+  "version": "1.0",
+  "last_updated": "2025-11-22",
+  "documents": [
+    {
+      "file": "docs/00_INDEX.md",
+      "title": "Knowledge Base Index",
+      "category": "Index",
+      "timeframe": "2015-2025",
+      "language": "en",
+      "description": "Master index with overview and table of all knowledge base documents"
+    },
+    {
+      "file": "docs/01_Tax_Incentives_SIFIDE_RFAI.md",
+      "title": "Tax Incentives (SIFIDE II & RFAI)",
+      "category": "Tax",
+      "timeframe": "until 2025",
+      "language": "pt-PT",
+      "description": "Structural tax incentives for R&D (SIFIDE II) and investment (RFAI), including contractual tax benefits"
+    },
+    {
+      "file": "docs/02_Complementary_Tax_Incentives.md",
+      "title": "Complementary Tax Incentives & Corporate Taxation",
+      "category": "Tax",
+      "timeframe": "2015-2025",
+      "language": "pt-PT",
+      "description": "ICE capitalization incentive, IRC rates, transfer pricing documentation and international reporting obligations"
+    },
+    {
+      "file": "docs/03_EU_State_Aid_Framework.md",
+      "title": "EU State Aid Framework (Regimes & Exemptions)",
+      "category": "EU Programmes",
+      "timeframe": "2015-2025",
+      "language": "pt-PT",
+      "description": "EU state aid principles, General Block Exemption Regulation (GBER), de minimis rules, and aid categories"
+    },
+    {
+      "file": "docs/04_EU_Compliance_Rules.md",
+      "title": "EU Compliance Rules (Transparency & Firms in Difficulty)",
+      "category": "EU Programmes",
+      "timeframe": "2015-2025",
+      "language": "pt-PT",
+      "description": "Transparency obligations, publication thresholds, firms in difficulty definition, and SME status calculation"
+    },
+    {
+      "file": "docs/05_PT2030_Structure_Governance.md",
+      "title": "PT2030 Structure & Governance",
+      "category": "PT2030",
+      "timeframe": "2021-2027",
+      "language": "pt-PT",
+      "description": "Portugal 2030 framework, strategic objectives, governance model, SIMPLEX system, and publicity requirements"
+    },
+    {
+      "file": "docs/06_Application_Eligibility_Deadlines.md",
+      "title": "Application, Eligibility & Deadlines",
+      "category": "PT2030",
+      "timeframe": "2021-2027",
+      "language": "pt-PT",
+      "description": "Beneficiary eligibility requirements, application submission procedures, and processing timelines for PT2030"
+    },
+    {
+      "file": "docs/07_Financial_Execution_Payments.md",
+      "title": "Financial Execution & Payment Management",
+      "category": "PRR",
+      "timeframe": "2021-2026",
+      "language": "pt-PT",
+      "description": "Payment modalities (advance, reimbursement, final), expense eligibility, documentation requirements for PRR/ESF+"
+    },
+    {
+      "file": "docs/08_ESF_Training_Programs.md",
+      "title": "ESF+ Training Programs (PESSOAS 2030)",
+      "category": "Employment",
+      "timeframe": "2021-2027",
+      "language": "pt-PT",
+      "description": "Modular certified training (FMC), simplified cost options, and joint enterprise training under ESF+ funding"
+    },
+    {
+      "file": "docs/09_PT2030_Innovation_Systems.md",
+      "title": "PT2030 Innovation Incentive Systems",
+      "category": "PT2030",
+      "timeframe": "2021-2027",
+      "language": "pt-PT",
+      "description": "SIID R&D incentives, SICE competitiveness programs, and PRR innovation agendas with 2025 application windows"
+    },
+    {
+      "file": "docs/10_Corporate_Governance_Responsibility.md",
+      "title": "Corporate Governance & Directors' Responsibility",
+      "category": "Legal",
+      "timeframe": "2015-2025",
+      "language": "pt-PT",
+      "description": "CSC duties of care and loyalty, administrator responsibilities, and compliance obligations for public fund recipients"
+    },
+    {
+      "file": "docs/11_Legal_Regulatory_Framework.md",
+      "title": "Legal & Regulatory Framework for Applications",
+      "category": "Legal",
+      "timeframe": "2015-2025",
+      "language": "pt-PT",
+      "description": "Hierarchical legal framework governing access to EU and national incentives, including compliance and liability"
+    },
+    {
+      "file": "docs/12_Structured_Knowledge_Base_2025.md",
+      "title": "Structured Knowledge Base 2025 Cycle",
+      "category": "Other",
+      "timeframe": "2025-2030",
+      "language": "pt-PT",
+      "description": "Comprehensive overview of active incentive programs for 2025, including specific application windows and conditions"
+    },
+    {
+      "file": "docs/Incentive_Programs_Overview_2015-2025.pdf",
+      "title": "Incentive Programs Overview",
+      "category": "Other",
+      "timeframe": "2015-2025",
+      "language": "pt-PT",
+      "description": "PDF document with historical overview of Portuguese business incentive programs"
+    }
+  ],
+  "categories": {
+    "Index": "Master index and documentation overview",
+    "Tax": "Tax incentives and corporate taxation",
+    "PT2030": "Portugal 2030 structural funds",
+    "PRR": "Recovery and Resilience Plan",
+    "Employment": "Employment and training support (IEFP, ESF+)",
+    "EU Programmes": "EU state aid framework and direct programs",
+    "Legal": "Legal and regulatory frameworks",
+    "Other": "General overviews and reference materials"
+  }
+}
