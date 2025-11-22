@@ -136,7 +136,7 @@ This project is deliberately simple on the outside and careful on the inside.
 
 ### Prerequisites
 
-- Access to ChatGPT with Custom GPTs (ChatGPT Plus, Team or Enterprise)
+- Access to ChatGPT a **free ChatGPT account**
 
 ### Getting Started
 
@@ -229,7 +229,7 @@ Nuno's focus is on building practical, explainable AI tools that:
 
 ### Get in Touch
 
-You can reach out via [LinkedIn](https://linkedin.com/in/nunosalvacao) or [GitHub](https://github.com/nsalvacao) if you want to:
+You can reach out via [Linkedin](https://www.linkedin.com/in/nsalvacao/) or [GitHub](https://github.com/nsalvacao) if you want to:
 
 - 🏢 Use this assistant in your organisation
 - 📖 Extend the knowledge base
