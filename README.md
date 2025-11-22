@@ -1,78 +1,107 @@
-# Nexo Incentives Navigator (PT/EU)
+# 🧭 Nexo Incentives Navigator (PT/EU)
 
-<img src="assets/icon.png" alt="Nexo Incentives Navigator Icon" width="100" height="100">
+<div align="center">
+  <img src="assets/icon.png" alt="Nexo Incentives Navigator Icon" width="120" height="120">
+  
+  [![ChatGPT](https://img.shields.io/badge/ChatGPT-Custom_GPT-74aa9c?logo=openai&logoColor=white)](https://chatgpt.com/g/g-6921c292457c81919c8b0f3e78969072-navegador-de-incentivos-portugal)
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+  [![Made in Portugal](https://img.shields.io/badge/Made_in-Portugal-green.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyMCAxNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSIxNCIgZmlsbD0iIzAwNjYzMyIvPjxyZWN0IHg9IjgiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxNCIgZmlsbD0iI0ZGMDAwMCIvPjwvc3ZnPg==)](#)
+  
+  **A specialised AI assistant that helps Portuguese companies navigate national and EU funding opportunities.**
+</div>
 
-**Nexo Incentives Navigator** is a specialised AI assistant (Custom GPT) that helps Portuguese companies understand and navigate **national and EU funding, incentives and support schemes**.
+## 📋 Table of Contents
 
-It combines a **curated knowledge base** (PRR, PT2020/PT2030, tax incentives, EU programmes, employment schemes, etc.) with **live web checks** against official sources, and explains in plain language what a specific company can realistically apply for – and what to do next.
-
-> ⚠️ Disclaimer  
-> This assistant does **not** provide legal, tax or accounting advice and does not guarantee the approval of any application. It is a decision-support and discovery tool; final decisions and interpretations belong to the competent authorities and qualified advisers.
-
-https://chatgpt.com/g/g-6921c292457c81919c8b0f3e78969072-navegador-de-incentivos-portugal
+- [Overview](#-overview)
+- [What it Does](#-what-it-does)
+- [Who is This For](#-who-is-this-for)
+- [Under the Hood](#-under-the-hood)
+- [Repository Structure](#-repository-structure)
+- [Using the Custom GPT](#-using-the-custom-gpt)
+- [Limitations and Scope](#-limitations-and-scope)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [About the Author](#-about-the-author)
 
 ---
 
-## What it does
+## 🎯 Overview
 
-- Reads and reasons over a **curated set of documents**:
+**Nexo Incentives Navigator** combines a **curated knowledge base** covering PRR, PT2020/PT2030, tax incentives, EU programmes, and employment schemes with **live web checks** against official sources. It explains in plain language what a specific company can realistically apply for – and what to do next.
+
+> ⚠️ **Disclaimer**  
+> This assistant does **not** provide legal, tax or accounting advice and does not guarantee the approval of any application. It is a decision-support and discovery tool; final decisions and interpretations belong to the competent authorities and qualified advisers.
+
+**🔗 [Access the Custom GPT →](https://chatgpt.com/g/g-6921c292457c81919c8b0f3e78969072-navegador-de-incentivos-portugal)**
+
+---
+
+## 🔧 What it Does
+
+- **Reads and reasons** over a **curated set of documents**:
   - PRR components and business-oriented measures (Agendas, Empresas 4.0, decarbonisation, capitalisation, etc.)
   - Portugal 2020 / Portugal 2030 business incentives (COMPETE, regional programmes, thematic programmes)
   - Tax incentives (SIFIDE, RFAI, contractual benefits, capitalisation schemes)
   - Employment and training support (IEFP, internships, hiring incentives)
   - Direct EU programmes (Horizon Europe, EIC, LIFE, Digital Europe, Single Market Programme, etc.)
-- Cross-checks the knowledge base with **official public sources** when dates, status or rules may have changed.
-- Answers in **Portuguese (Portugal)** by default, and switches to English when needed.
-- Structures answers for **decision-making**, not just information:
-  - context and high-level explanation
-  - relevant programmes/options
-  - eligibility and main conditions
-  - state of play (open / planned / closed-historical)
-  - links to official sources
-  - concrete next steps
+
+- **Cross-checks** the knowledge base with **official public sources** when dates, status or rules may have changed
+
+- **Answers** in **Portuguese (Portugal)** by default, and switches to English when needed
+
+- **Structures answers** for **decision-making**, not just information:
+  - Context and high-level explanation
+  - Relevant programmes/options
+  - Eligibility and main conditions
+  - State of play (open / planned / closed-historical)
+  - Links to official sources
+  - Concrete next steps
 
 ---
 
-## Who is this for?
+## 👥 Who is This For?
 
-- **SME owners and managers**  
-  Looking for a clear, realistic view of “what is on the table” for a given investment or project.
+- **🏢 SME owners and managers**  
+  Looking for a clear, realistic view of "what is on the table" for a given investment or project.
 
-- **CFOs and finance teams**  
+- **💰 CFOs and finance teams**  
   Mapping funding options (grants, tax incentives, EU programmes) to support financial planning and investment decisions.
 
-- **Consultants and advisors**  
+- **📊 Consultants and advisors**  
   Getting a fast, structured first pass on potential incentives before deep-diving into project design and application writing.
 
-- **Public sector & ecosystem actors**  
+- **🏛️ Public sector & ecosystem actors**  
   Exploring how companies can combine national and EU instruments in practice.
 
 ---
 
-## Under the hood
+## ⚙️ Under the Hood
 
 This project is deliberately simple on the outside and careful on the inside.
 
-- Built as a **Custom GPT** on top of a **curated, domain-specific knowledge base** (11 core documents + an index).
-- Documents cover the last ~10 years of Portuguese and EU business support instruments, with a focus on:
+- **Built as a Custom GPT** on top of a **curated, domain-specific knowledge base** (11 core documents + an index)
+
+- **Documents cover** the last ~10 years of Portuguese and EU business support instruments, with a focus on:
   - PRR (Plano de Recuperação e Resiliência) business measures
   - PT2020 / PT2030 business incentives
   - Tax incentives and investment support
   - Employment and training schemes
   - EU direct funding programmes
-- Uses the model’s **retrieval over these documents first**, then **web browsing** to:
-  - confirm dates, call status and thresholds
-  - check for new regulations or updates
-  - always point back to **official sources** (portugal2030.pt, recuperarportugal.gov.pt, iapmei.pt, ani.pt, iefp.pt, EU portals, etc.)
-- Designed with **conservative guardrails**:
-  - no invented rates, deadlines or amounts
-  - no guarantees of approval
-  - explicit separation between “current/active” and “closed/historical” instruments
-  - clear recommendation to confirm details with official entities and qualified professionals
+
+- **Uses the model's retrieval** over these documents first, then **web browsing** to:
+  - Confirm dates, call status and thresholds
+  - Check for new regulations or updates
+  - Always point back to **official sources** (portugal2030.pt, recuperarportugal.gov.pt, iapmei.pt, ani.pt, iefp.pt, EU portals, etc.)
+
+- **Designed with conservative guardrails**:
+  - No invented rates, deadlines or amounts
+  - No guarantees of approval
+  - Explicit separation between "current/active" and "closed/historical" instruments
+  - Clear recommendation to confirm details with official entities and qualified professionals
 
 ---
 
-## Repository structure
+## 📁 Repository Structure
 
 ```text
 .
@@ -97,102 +126,121 @@ This project is deliberately simple on the outside and careful on the inside.
 │   └── icon.png                                         # GPT icon used in ChatGPT
 └── config/
     └── knowledge-manifest.json                          # Structured metadata for RAG pipelines
+```
 
-ℹ️ The knowledge base is explicit, traceable and easy to maintain. All documents are in Portuguese (pt-PT) except the index.
+> ℹ️ **Note:** The knowledge base is explicit, traceable and easy to maintain. All documents are in Portuguese (pt-PT) except the index.
 
-Using the Custom GPT
+---
 
-🔗 Custom GPT link: to be added here
-(For public sharing, put the actual link in the repository or in your LinkedIn post / website.)
+## 🚀 Using the Custom GPT
 
-Make sure you have access to ChatGPT with Custom GPTs (ChatGPT Plus, Team or Enterprise).
+### Prerequisites
 
-Open the link to Nexo Incentives Navigator (PT/EU).
+- Access to ChatGPT with Custom GPTs (ChatGPT Plus, Team or Enterprise)
 
-Start by briefly describing:
+### Getting Started
 
-your company (size, sector, location),
+1. **Access the Assistant**  
+   Open the [Nexo Incentives Navigator (PT/EU)](https://chatgpt.com/g/g-6921c292457c81919c8b0f3e78969072-navegador-de-incentivos-portugal)
 
-the type of project (investment, R&D, digitalisation, internationalisation, hiring, training, decarbonisation, etc.),
+2. **Describe Your Needs**  
+   Start by briefly describing:
+   - Your company (size, sector, location)
+   - The type of project (investment, R&D, digitalisation, internationalisation, hiring, training, decarbonisation, etc.)
+   - The rough budget range
 
-and the rough budget range.
+3. **Get Recommendations**  
+   The assistant will:
+   - Ask a small number of clarifying questions if needed
+   - Propose relevant programmes/incentives
+   - Highlight eligibility caveats and practical steps
 
-The assistant will:
+### Advanced Use Cases
 
-ask a small number of clarifying questions if needed;
+For internal deployment, API integration, or RAG pipelines, this knowledge base and structure can be reused in a custom stack (OpenAI API, Gemini, or mixed frameworks).
 
-propose relevant programmes/incentives;
+---
 
-highlight eligibility caveats and practical steps.
+## ⚠️ Limitations and Scope
 
-For more advanced use cases (e.g. internal deployment, API integration, RAG pipelines), this knowledge base and structure can be reused in a custom stack (OpenAI API, Gemini, or mixed).
+### Not a Replacement For
 
-Limitations and scope
+The assistant is **not** a replacement for:
 
-The assistant is not a replacement for:
+- ❌ Legal opinions
+- ❌ Tax advice
+- ❌ Accounting or audit work
+- ❌ Direct contact with managing authorities
 
-legal opinions,
+### Best Practices
 
-tax advice,
+⚠️ The assistant can make mistakes. When in doubt, **always**:
 
-accounting or audit work,
+1. ✅ Check the latest official call/notice
+2. ✅ Ask the relevant authority (IAPMEI, AD&C, IEFP, ANI, AICEP, etc.)
+3. ✅ Consult your accountant, lawyer or specialised consultant
 
-or direct contact with managing authorities.
-
-It can make mistakes. When in doubt, always:
-
-check the latest official call/notice,
-
-ask the relevant authority (IAPMEI, AD&C, IEFP, ANI, AICEP, etc.),
-
-consult your accountant, lawyer or specialised consultant.
+### Historical Context
 
 Some programmes referenced in the knowledge base are closed (historical) and are included for:
 
-context,
+- Context
+- Comparison with current instruments
+- Understanding of policy evolution
 
-comparison with current instruments,
+---
 
-understanding of policy evolution.
+## 🗺️ Roadmap
 
-Roadmap
+### Completed
 
-Planned and potential improvements:
+- ✅ First version of curated knowledge base (11 docs + index)
+- ✅ Custom GPT configured with conservative instructions and citation behaviour
 
-✅ First version of curated knowledge base (11 docs + index).
+### In Progress
 
-✅ Custom GPT configured with conservative instructions and citation behaviour.
+- ⏳ Add more examples and walkthroughs (per sector and company size)
+- ⏳ Tag knowledge documents with metadata (time range, programme type, managing authority)
+- ⏳ Explore a self-hosted RAG version (OpenAI / Gemini API + vector store) for organisations
 
-⏳ Add more examples and walkthroughs (per sector and company size).
+---
 
-⏳ Tag knowledge documents with metadata (time range, programme type, managing authority).
-
-⏳ Explore a self-hosted RAG version (OpenAI / Gemini API + vector store) for organisations.
+## 🤝 Contributing
 
 Suggestions and pull requests are welcome, especially from:
 
-funding & incentives practitioners,
+- 💼 Funding & incentives practitioners
+- 📊 Consultants and advisors
+- 🏛️ Policy and public administration experts
 
-consultants,
+Feel free to open an issue or submit a PR to help improve this resource!
 
-and policy / public administration experts.
+---
 
-About the author
+## 👤 About the Author
 
-This project is maintained by Nuno Salvação, a Portuguese AI solution architecture, data/ML and process modelling.
+This project is maintained by **Nuno Salvação**, a Portuguese AI solution architect specializing in data/ML and process modelling.
 
-Nuno’s focus is on building practical, explainable AI tools that:
+Nuno's focus is on building practical, explainable AI tools that:
 
-sit on top of real documentation and regulation,
+- 📚 Sit on top of real documentation and regulation
+- ⚖️ Respect constraints (legal, fiscal, financial)
+- 🎯 Help people make better decisions, faster
 
-respect constraints (legal, fiscal, financial),
+### Get in Touch
 
-and help people make better decisions, faster.
+You can reach out via [LinkedIn](https://linkedin.com/in/nunosalvacao) or [GitHub](https://github.com/nsalvacao) if you want to:
 
-You can reach out via LinkedIn or GitHub if you want to:
+- 🏢 Use this assistant in your organisation
+- 📖 Extend the knowledge base
+- 💡 Discuss similar AI assistants for other domains (tax, legal, grants, compliance, etc.)
 
-use this assistant in your organisation,
+---
 
-extend the knowledge base,
+<div align="center">
+  
+**Made with ❤️ in Portugal**
 
-or discuss similar AI assistants for other domains (tax, legal, grants, compliance, etc.).
+[![GitHub](https://img.shields.io/badge/GitHub-nsalvacao-black?logo=github)](https://github.com/nsalvacao)
+
+</div>
