@@ -134,10 +134,6 @@ This project is deliberately simple on the outside and careful on the inside.
 
 ## 🚀 Using the Custom GPT
 
-### Prerequisites
-
-- Access to ChatGPT a **free ChatGPT account**
-
 ### Getting Started
 
 1. **Access the Assistant**  
