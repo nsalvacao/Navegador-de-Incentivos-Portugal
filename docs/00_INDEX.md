@@ -1,10 +1,42 @@
-Esta é uma excelente exigência para garantir a máxima eficácia da base de conhecimento na recuperação de informação por parte de modelos de IA. A vastidão dos incentivos e o complexo enquadramento legal (nacional e europeu) requerem uma segmentação lógica e sem redundâncias.
+# Knowledge Base Index - Nexo Incentives Navigator (PT/EU)
 
-Apresento a seguir a divisão estruturada da informação em **10 documentos** distintos, com os respetivos tópicos e subtópicos, otimizados para a ingestão e consulta eficiente por um _custom GPT_ ou _Gemini_.
+This knowledge base provides comprehensive documentation on Portuguese and EU business funding, incentives, and support schemes. The documents cover national programs (PRR, PT2020/PT2030), tax incentives, EU state aid frameworks, employment schemes, and legal/regulatory requirements for Portuguese companies accessing public funding from 2015-2025.
 
 ---
 
-## ESTRUTURA DA BASE DE CONHECIMENTO (10 DOCUMENTOS)
+## Knowledge Base Overview
+
+This curated knowledge base supports the Nexo Incentives Navigator custom GPT with structured information on:
+- **Tax incentives** (SIFIDE II, RFAI, ICE)
+- **PT2030 and PRR business programs** (innovation, competitiveness, training)
+- **EU state aid framework** and compliance rules
+- **Application procedures**, eligibility criteria, and deadlines
+- **Financial execution** and payment management
+- **Legal and regulatory frameworks** for corporate governance
+
+---
+
+## Document Index
+
+| File | Title | Scope | Timeframe | Language | Notes |
+|------|-------|-------|-----------|----------|-------|
+| **01_Tax_Incentives_SIFIDE_RFAI.md** | Tax Incentives (SIFIDE II & RFAI) | Structural tax incentives for R&D and investment | Until 2025 | pt-PT | Core permanent fiscal regimes |
+| **02_Complementary_Tax_Incentives.md** | Complementary Tax Incentives & Corporate Taxation | ICE capitalization, IRC rates, transfer pricing | 2015-2025 | pt-PT | IRC compliance & international obligations |
+| **03_EU_State_Aid_Framework.md** | EU State Aid Framework (Regimes & Exemptions) | EU state aid rules, GBER, de minimis | 2015-2025 | pt-PT | Legal basis for PT2030/PRR |
+| **04_EU_Compliance_Rules.md** | EU Compliance Rules (Transparency & Firms in Difficulty) | Transparency obligations, SME definition, firms in difficulty | 2015-2025 | pt-PT | Eligibility restrictions |
+| **05_PT2030_Structure_Governance.md** | PT2030 Structure & Governance | Portugal 2030 framework, governance model, publicity rules | 2021-2027 | pt-PT | Strategic objectives & management |
+| **06_Application_Eligibility_Deadlines.md** | Application, Eligibility & Deadlines | Eligibility requirements, submission procedures, timelines | 2021-2027 | pt-PT | Procedural rules for PT2030 |
+| **07_Financial_Execution_Payments.md** | Financial Execution & Payment Management | Payment modalities, expense eligibility, documentation | 2021-2026 | pt-PT | PRR/ESF+ financial procedures |
+| **08_ESF_Training_Programs.md** | ESF+ Training Programs (PESSOAS 2030) | Modular training, ESF+ funding, enterprise training | 2021-2027 | pt-PT | Training and skills development |
+| **09_PT2030_Innovation_Systems.md** | PT2030 Innovation Incentive Systems | SIID, SICE, PRR innovation agendas | 2021-2027 | pt-PT | Business innovation & competitiveness |
+| **10_Corporate_Governance_Responsibility.md** | Corporate Governance & Directors' Responsibility | CSC duties, administrator responsibilities, compliance | 2015-2025 | pt-PT | Legal framework for directors |
+| **11_Legal_Regulatory_Framework.md** | Legal & Regulatory Framework for Applications | Hierarchical legal framework, compliance requirements | 2015-2025 | pt-PT | Comprehensive legal analysis |
+| **12_Structured_Knowledge_Base_2025.md** | Structured Knowledge Base 2025 Cycle | Complete overview of active incentives for 2025 | 2025-2030 | pt-PT | 2025 application windows & conditions |
+| **Incentive_Programs_Overview_2015-2025.pdf** | Incentive Programs Overview | Historical overview of Portuguese business incentives | 2015-2025 | pt-PT | PDF reference document |
+
+---
+
+## Original Document Structure (Reference)
 
 ### Documento 1: Regimes Fiscais Estruturais de Suporte ao Investimento (SIFIDE II e RFAI)
 

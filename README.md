@@ -1,5 +1,7 @@
 # Nexo Incentives Navigator (PT/EU)
 
+<img src="assets/icon.png" alt="Nexo Incentives Navigator Icon" width="100" height="100">
+
 **Nexo Incentives Navigator** is a specialised AI assistant (Custom GPT) that helps Portuguese companies understand and navigate **national and EU funding, incentives and support schemes**.
 
 It combines a **curated knowledge base** (PRR, PT2020/PT2030, tax incentives, EU programmes, employment schemes, etc.) with **live web checks** against official sources, and explains in plain language what a specific company can realistically apply for – and what to do next.
@@ -72,30 +74,31 @@ This project is deliberately simple on the outside and careful on the inside.
 
 ## Repository structure
 
-A suggested structure for this repository:
-
 ```text
 .
 ├── README.md
+├── .gitignore
 ├── docs/
-│   ├── 00_INDEX.md                     # Overview of the knowledge base and document map
-│   ├── 01_PRR_Business_Measures.md
-│   ├── 02_PT2020_Business_Incentives.md
-│   ├── 03_PT2030_Business_Incentives.md
-│   ├── 04_Tax_Incentives_SIFIDE_RFAI.md
-│   ├── 05_Employment_IEFP_Programmes.md
-│   ├── 06_EU_Direct_Programmes.md
-│   ├── 07_Legal_Framework_References.md
-│   ├── 08_Case_Notes_and_Patterns.md
-│   ├── 09_Frequently_Asked_Questions.md
-│   └── 10_Glossary_and_Definitions.md
+│   ├── 00_INDEX.md                                      # Overview of the knowledge base and document map
+│   ├── 01_Tax_Incentives_SIFIDE_RFAI.md
+│   ├── 02_Complementary_Tax_Incentives.md
+│   ├── 03_EU_State_Aid_Framework.md
+│   ├── 04_EU_Compliance_Rules.md
+│   ├── 05_PT2030_Structure_Governance.md
+│   ├── 06_Application_Eligibility_Deadlines.md
+│   ├── 07_Financial_Execution_Payments.md
+│   ├── 08_ESF_Training_Programs.md
+│   ├── 09_PT2030_Innovation_Systems.md
+│   ├── 10_Corporate_Governance_Responsibility.md
+│   ├── 11_Legal_Regulatory_Framework.md
+│   ├── 12_Structured_Knowledge_Base_2025.md
+│   └── Incentive_Programs_Overview_2015-2025.pdf        # Historical overview
 ├── assets/
-│   └── icon.png                        # GPT icon used in ChatGPT
+│   └── icon.png                                         # GPT icon used in ChatGPT
 └── config/
-    └── knowledge-manifest.json         # Optional: structured metadata about the docs
+    └── knowledge-manifest.json                          # Structured metadata for RAG pipelines
 
-ℹ️ The actual filenames and number of documents may differ.
-The important part is that the knowledge base is explicit, traceable and easy to maintain.
+ℹ️ The knowledge base is explicit, traceable and easy to maintain. All documents are in Portuguese (pt-PT) except the index.
 
 Using the Custom GPT
 
