@@ -7,6 +7,8 @@ It combines a **curated knowledge base** (PRR, PT2020/PT2030, tax incentives, EU
 > ⚠️ Disclaimer  
 > This assistant does **not** provide legal, tax or accounting advice and does not guarantee the approval of any application. It is a decision-support and discovery tool; final decisions and interpretations belong to the competent authorities and qualified advisers.
 
+https://chatgpt.com/g/g-6921c292457c81919c8b0f3e78969072-navegador-de-incentivos-portugal
+
 ---
 
 ## What it does
