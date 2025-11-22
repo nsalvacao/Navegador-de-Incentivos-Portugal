@@ -91,3 +91,103 @@ A suggested structure for this repository:
 │   └── icon.png                        # GPT icon used in ChatGPT
 └── config/
     └── knowledge-manifest.json         # Optional: structured metadata about the docs
+
+ℹ️ The actual filenames and number of documents may differ.
+The important part is that the knowledge base is explicit, traceable and easy to maintain.
+
+Using the Custom GPT
+
+🔗 Custom GPT link: to be added here
+(For public sharing, put the actual link in the repository or in your LinkedIn post / website.)
+
+Make sure you have access to ChatGPT with Custom GPTs (ChatGPT Plus, Team or Enterprise).
+
+Open the link to Nexo Incentives Navigator (PT/EU).
+
+Start by briefly describing:
+
+your company (size, sector, location),
+
+the type of project (investment, R&D, digitalisation, internationalisation, hiring, training, decarbonisation, etc.),
+
+and the rough budget range.
+
+The assistant will:
+
+ask a small number of clarifying questions if needed;
+
+propose relevant programmes/incentives;
+
+highlight eligibility caveats and practical steps.
+
+For more advanced use cases (e.g. internal deployment, API integration, RAG pipelines), this knowledge base and structure can be reused in a custom stack (OpenAI API, Gemini, or mixed).
+
+Limitations and scope
+
+The assistant is not a replacement for:
+
+legal opinions,
+
+tax advice,
+
+accounting or audit work,
+
+or direct contact with managing authorities.
+
+It can make mistakes. When in doubt, always:
+
+check the latest official call/notice,
+
+ask the relevant authority (IAPMEI, AD&C, IEFP, ANI, AICEP, etc.),
+
+consult your accountant, lawyer or specialised consultant.
+
+Some programmes referenced in the knowledge base are closed (historical) and are included for:
+
+context,
+
+comparison with current instruments,
+
+understanding of policy evolution.
+
+Roadmap
+
+Planned and potential improvements:
+
+✅ First version of curated knowledge base (11 docs + index).
+
+✅ Custom GPT configured with conservative instructions and citation behaviour.
+
+⏳ Add more examples and walkthroughs (per sector and company size).
+
+⏳ Tag knowledge documents with metadata (time range, programme type, managing authority).
+
+⏳ Explore a self-hosted RAG version (OpenAI / Gemini API + vector store) for organisations.
+
+Suggestions and pull requests are welcome, especially from:
+
+funding & incentives practitioners,
+
+consultants,
+
+and policy / public administration experts.
+
+About the author
+
+This project is maintained by Nuno Salvação, a Portuguese AI solution architecture, data/ML and process modelling.
+
+Nuno’s focus is on building practical, explainable AI tools that:
+
+sit on top of real documentation and regulation,
+
+respect constraints (legal, fiscal, financial),
+
+and help people make better decisions, faster.
+
+You can reach out via LinkedIn or GitHub if you want to:
+
+use this assistant in your organisation,
+
+extend the knowledge base,
+
+or discuss similar AI assistants for other domains (tax, legal, grants, compliance, etc.).
